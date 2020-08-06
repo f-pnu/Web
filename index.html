@@ -8,40 +8,7 @@
 
   <meta charset='utf-8'>
 
-  <style>
-  body {
-    margin: 0;
-  }
-    a {
-      color:black;
-      text-decoration: none;
-    }
-    h1 {
-      font-size: 50px;
-      text-align: center;
-      border-bottom:1px solid gray;
-      margin: 0;
-    }
-    ol {
-      border-right: 1px solid gray;
-      width: 100px;
-      margin: 0;
-      padding:20px;
-      padding-left: 33px;
-      padding-right: 0px;
-    }
-    .in {
-      color: red;
-    }
-    .url {
-      color: blue;
-      text-decoration: underline;
-    }
-    #grid {
-      display: grid;
-      grid-template-columns: 150px 1fr
-    }
-  </style>
+  <link rel="stylesheet" href="css\style.css"
 </head>
 
 <body>
@@ -56,7 +23,7 @@
       <li><a href='3.html' title='JavaScript'>JavaScript</a></li>
     </ol>
     <!--text-->
-    <div>
+    <div id="article">
       <h2>
         Welcome
       </h2>
@@ -101,8 +68,9 @@
       </p>
       <br>
       <p>
-        <a href="https://wikipedia.org" target='_blank' title="WikiPedia"class='url'>
-          from WikiPedia
+        from
+        <a href="https://wikipedia.org" target='_blank' title="WikiPedia" class="url">
+          WikiPedia
         </a>
       </p>
     </dir>
