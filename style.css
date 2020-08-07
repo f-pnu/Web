@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+  a {
+    color:black;
+    text-decoration: none;
+  }
+  h1 {
+    font-size: 50px;
+    text-align: center;
+    border-bottom:1px solid gray;
+    margin: 0;
+  }
+  ol {
+    border-right: 1px solid gray;
+    width: 100px;
+    margin: 0;
+    padding:20px;
+    padding-left: 33px;
+    padding-right: 0px;
+  }
+  .in {
+    color: red;
+  }
+  .url {
+    color: blue;
+    text-decoration: underline;
+  }
+  #grid {
+    display: grid;
+    grid-template-columns: 150px 1fr
+  }
+  @media(max-width:650px){
+    ol {
+      border-bottom: 1px solid gray;
+    }
+    #grid {
+      display: block;
+    }
+  }
